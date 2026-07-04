@@ -1,0 +1,47 @@
+name: ⚒️ Revive a strategy
+description: Report on picking up one of these bots and running it forward
+labels: ["revival", "results"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The rule: **shadow-validate before you claim an edge.** Forward results on a large,
+        independent, multi-regime sample, net of fees. Negative results are valid and welcome.
+  - type: dropdown
+    id: which
+    attributes:
+      label: Which bot / strategy did you revive?
+      options:
+        - v0/v1 — Apex Predator / Shadow Sniper
+        - v2 — Phantom (BTC 5-min 3-AI)
+        - v3 — Long-Tail Sniper
+        - v4 — Maker-Only BTC
+        - v5 — Oracle Gap (shadow rig)
+        - Other / new
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: What failure mode did you fix?
+      description: Which documented problem did you address, and how?
+    validations:
+      required: true
+  - type: textarea
+    id: numbers
+    attributes:
+      label: Forward numbers (honest)
+      description: Sample size, regimes covered, Brier / win-rate / realized edge, net of fees.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I shadow-validated forward before claiming any edge.
+          required: true
+        - label: These numbers come from a database, not the bot's self-report.
+          required: true
+        - label: I did not include any secrets (keys, wallets, private URLs).
+          required: true

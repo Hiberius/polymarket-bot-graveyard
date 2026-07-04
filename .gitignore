@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+wallets.json
+secrets/
+
+# Node (contributor tooling only)
+node_modules/
+package-lock.json
+
+# Logs / data
+*.log
+data/

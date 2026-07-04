@@ -1,0 +1,40 @@
+name: 🔬 Share a post-mortem
+description: Tell the story of a prediction-market bot or strategy that failed
+labels: ["post-mortem", "discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: Negative results are first-class here. Thanks for sharing what didn't work.
+  - type: input
+    id: what
+    attributes:
+      label: What did you build?
+      placeholder: e.g. a mean-reversion bot on Polymarket sports markets
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: What was the assumed edge?
+      description: What did you believe was mispriced, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: measured
+    attributes:
+      label: How did you measure it?
+      description: Paper? Shadow/forward-validated? Live? What was the sample size?
+    validations:
+      required: true
+  - type: textarea
+    id: died
+    attributes:
+      label: How did it die?
+      description: The failure mode(s). Be specific.
+    validations:
+      required: true
+  - type: textarea
+    id: lesson
+    attributes:
+      label: The lesson
+      description: What would you tell your past self?

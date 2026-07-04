@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  markdown:
+    name: Markdown lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 20
+      - name: markdownlint
+        run: npx --yes markdownlint-cli2 "**/*.md" "#node_modules"
+
+  links:
+    name: Internal link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: lychee (offline — verifies internal links only)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: "--offline --no-progress ."
+          fail: true

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 470" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif">
+  <rect width="1120" height="470" fill="#0d0d10"/>
+  <text x="560" y="34" text-anchor="middle" fill="#e8e8ea" font-size="20" font-weight="700">The SPECTRIX Graveyard — 6 bots · 3 months · $0 profit · one honest &#8220;no&#8221;</text>
+
+  <!-- timeline spine -->
+  <line x1="102" y1="62" x2="1018" y2="62" stroke="#3a3a42" stroke-width="2"/>
+
+  <!-- real-money divider -->
+  <line x1="377" y1="52" x2="377" y2="418" stroke="#e5484d" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.7"/>
+  <text x="371" y="436" text-anchor="end" fill="#e5484d" font-size="10.5" opacity="0.9">real money</text>
+  <text x="383" y="436" text-anchor="start" fill="#9a9aa2" font-size="10.5">paper / shadow only</text>
+
+  <!-- nodes + connectors -->
+  <g>
+    <circle cx="102" cy="62" r="6" fill="#e5484d"/><line x1="102" y1="68" x2="102" y2="92" stroke="#e5484d" stroke-width="1.5"/>
+    <circle cx="285" cy="62" r="6" fill="#e5484d"/><line x1="285" y1="68" x2="285" y2="92" stroke="#e5484d" stroke-width="1.5"/>
+    <circle cx="468" cy="62" r="6" fill="#f5a623"/><line x1="468" y1="68" x2="468" y2="92" stroke="#f5a623" stroke-width="1.5"/>
+    <circle cx="651" cy="62" r="6" fill="#f5a623"/><line x1="651" y1="68" x2="651" y2="92" stroke="#f5a623" stroke-width="1.5"/>
+    <circle cx="834" cy="62" r="6" fill="#f5a623"/><line x1="834" y1="68" x2="834" y2="92" stroke="#f5a623" stroke-width="1.5"/>
+    <circle cx="1017" cy="62" r="6" fill="#30a46c"/><line x1="1017" y1="68" x2="1017" y2="92" stroke="#30a46c" stroke-width="1.5"/>
+  </g>
+
+  <!-- cards -->
+  <!-- v0 -->
+  <g transform="translate(20,92)">
+    <rect width="165" height="300" rx="8" fill="#16161a" stroke="#e5484d" stroke-opacity="0.5"/>
+    <rect width="165" height="5" rx="2.5" fill="#e5484d"/>
+    <text x="14" y="48" font-size="30" font-weight="800" fill="#e5484d">v0</text>
+    <text x="14" y="72" font-size="13" font-weight="700" fill="#e8e8ea">Apex Predator</text>
+    <line x1="14" y1="84" x2="151" y2="84" stroke="#2a2a30"/>
+    <text x="14" y="108" font-size="11" fill="#9a9aa2">29 Mar &#183; 4 hours</text>
+    <text x="14" y="126" font-size="11" fill="#9a9aa2">live &#183; real money</text>
+    <text x="14" y="160" font-size="11.5" fill="#c9c9d0">Avellaneda-Stoikov</text>
+    <text x="14" y="176" font-size="11.5" fill="#c9c9d0">market maker</text>
+    <text x="14" y="214" font-size="12" font-weight="700" fill="#e5484d">~-$20</text>
+    <text x="14" y="232" font-size="11" fill="#c9c9d0">129% spreads,</text>
+    <text x="14" y="248" font-size="11" fill="#c9c9d0">56k rejected orders,</text>
+    <text x="14" y="264" font-size="11" fill="#c9c9d0">wallet flagged</text>
+  </g>
+  <!-- v1 -->
+  <g transform="translate(203,92)">
+    <rect width="165" height="300" rx="8" fill="#16161a" stroke="#e5484d" stroke-opacity="0.5"/>
+    <rect width="165" height="5" rx="2.5" fill="#e5484d"/>
+    <text x="14" y="48" font-size="30" font-weight="800" fill="#e5484d">v1</text>
+    <text x="14" y="72" font-size="13" font-weight="700" fill="#e8e8ea">Shadow Sniper</text>
+    <line x1="14" y1="84" x2="151" y2="84" stroke="#2a2a30"/>
+    <text x="14" y="108" font-size="11" fill="#9a9aa2">30 Mar &#8211; 5 Apr</text>
+    <text x="14" y="126" font-size="11" fill="#9a9aa2">live &#183; real money</text>
+    <text x="14" y="160" font-size="11.5" fill="#c9c9d0">4 event strategies</text>
+    <text x="14" y="176" font-size="11.5" fill="#c9c9d0">(copy-whale, momentum)</text>
+    <text x="14" y="214" font-size="12" font-weight="700" fill="#e5484d">~-$40 &#183; wallet BANNED</text>
+    <text x="14" y="232" font-size="11" fill="#c9c9d0">bought 9x,</text>
+    <text x="14" y="248" font-size="11" fill="#c9c9d0">never sold</text>
+    <text x="14" y="264" font-size="11" fill="#c9c9d0">(no auto-exit)</text>
+  </g>
+  <!-- v2 -->
+  <g transform="translate(386,92)">
+    <rect width="165" height="300" rx="8" fill="#16161a" stroke="#f5a623" stroke-opacity="0.5"/>
+    <rect width="165" height="5" rx="2.5" fill="#f5a623"/>
+    <text x="14" y="48" font-size="30" font-weight="800" fill="#f5a623">v2</text>
+    <text x="14" y="72" font-size="13" font-weight="700" fill="#e8e8ea">Phantom</text>
+    <line x1="14" y1="84" x2="151" y2="84" stroke="#2a2a30"/>
+    <text x="14" y="108" font-size="11" fill="#9a9aa2">11 Apr &#8211; 4 May</text>
+    <text x="14" y="126" font-size="11" fill="#9a9aa2">paper</text>
+    <text x="14" y="160" font-size="11.5" fill="#c9c9d0">BTC 5-min UP/DOWN</text>
+    <text x="14" y="176" font-size="11.5" fill="#c9c9d0">via 3-AI consensus</text>
+    <text x="14" y="214" font-size="12" font-weight="700" fill="#f5a623">&#8220;+$2,491&#8221; = a lie</text>
+    <text x="14" y="232" font-size="11" fill="#c9c9d0">beta, not alpha;</text>
+    <text x="14" y="248" font-size="11" fill="#c9c9d0">5-min book fully</text>
+    <text x="14" y="264" font-size="11" fill="#c9c9d0">arbitraged by pros</text>
+  </g>
+  <!-- v3 -->
+  <g transform="translate(569,92)">
+    <rect width="165" height="300" rx="8" fill="#16161a" stroke="#f5a623" stroke-opacity="0.5"/>
+    <rect width="165" height="5" rx="2.5" fill="#f5a623"/>
+    <text x="14" y="48" font-size="30" font-weight="800" fill="#f5a623">v3</text>
+    <text x="14" y="72" font-size="13" font-weight="700" fill="#e8e8ea">Long-Tail Sniper</text>
+    <line x1="14" y1="84" x2="151" y2="84" stroke="#2a2a30"/>
+    <text x="14" y="108" font-size="11" fill="#9a9aa2">26 Apr &#8211; 4 May</text>
+    <text x="14" y="126" font-size="11" fill="#9a9aa2">never deployed live</text>
+    <text x="14" y="160" font-size="11.5" fill="#c9c9d0">AI scanner over</text>
+    <text x="14" y="176" font-size="11.5" fill="#c9c9d0">480+ &#8220;slow&#8221; markets</text>
+    <text x="14" y="214" font-size="12" font-weight="700" fill="#f5a623">0 fills</text>
+    <text x="14" y="232" font-size="11" fill="#c9c9d0">13,860 signals -&gt; 0;</text>
+    <text x="14" y="248" font-size="11" fill="#c9c9d0">AI 2-11s &gt; window</text>
+    <text x="14" y="264" font-size="11" fill="#c9c9d0">of &lt;1s</text>
+  </g>
+  <!-- v4 -->
+  <g transform="translate(752,92)">
+    <rect width="165" height="300" rx="8" fill="#16161a" stroke="#f5a623" stroke-opacity="0.5"/>
+    <rect width="165" height="5" rx="2.5" fill="#f5a623"/>
+    <text x="14" y="48" font-size="30" font-weight="800" fill="#f5a623">v4</text>
+    <text x="14" y="72" font-size="13" font-weight="700" fill="#e8e8ea">Maker-Only BTC</text>
+    <line x1="14" y1="84" x2="151" y2="84" stroke="#2a2a30"/>
+    <text x="14" y="108" font-size="11" fill="#9a9aa2">4 May &#8211; 1 Jun</text>
+    <text x="14" y="126" font-size="11" fill="#9a9aa2">paper &#183; 55 days</text>
+    <text x="14" y="160" font-size="11.5" fill="#c9c9d0">Chainlink fair-price</text>
+    <text x="14" y="176" font-size="11.5" fill="#c9c9d0">maker + rebate</text>
+    <text x="14" y="214" font-size="12" font-weight="700" fill="#f5a623">the maker LOST</text>
+    <text x="14" y="232" font-size="11" fill="#c9c9d0">adjusted -$277;</text>
+    <text x="14" y="248" font-size="11" fill="#c9c9d0">rebate &lt; adverse</text>
+    <text x="14" y="264" font-size="11" fill="#c9c9d0">selection</text>
+  </g>
+  <!-- v5 -->
+  <g transform="translate(935,92)">
+    <rect width="165" height="300" rx="8" fill="#12211a" stroke="#30a46c" stroke-opacity="0.7"/>
+    <rect width="165" height="5" rx="2.5" fill="#30a46c"/>
+    <text x="14" y="48" font-size="30" font-weight="800" fill="#30a46c">v5</text>
+    <text x="14" y="72" font-size="13" font-weight="700" fill="#e8e8ea">Oracle Gap</text>
+    <line x1="14" y1="84" x2="151" y2="84" stroke="#234a38"/>
+    <text x="14" y="108" font-size="11" fill="#9a9aa2">1 Jun &#8211; 28 Jun</text>
+    <text x="14" y="126" font-size="11" fill="#9a9aa2">shadow-only</text>
+    <text x="14" y="160" font-size="11.5" fill="#c9c9d0">measure the edge</text>
+    <text x="14" y="176" font-size="11.5" fill="#c9c9d0">before risking a cent</text>
+    <text x="14" y="214" font-size="12" font-weight="700" fill="#30a46c">proved no edge &#10003;</text>
+    <text x="14" y="232" font-size="11" fill="#c9c9d0">Brier 0.2377 =</text>
+    <text x="14" y="248" font-size="11" fill="#c9c9d0">coin-flip; the gate</text>
+    <text x="14" y="264" font-size="11" fill="#c9c9d0">said no. It was right.</text>
+  </g>
+</svg>
